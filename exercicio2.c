@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define MAX 5
+#define MAX 1
 typedef struct{
 	char nome[150];char telefone[15];int idade;char contato[150];
 } aluno;

@@ -5,7 +5,7 @@ typedef struct{
 	char fixo[15];
 	char celular[15];
 	char endereco[200];
-	char anivesariosario[10];
+	char aniversario[10];
 } contato;
 
 void leitura(contato *a){

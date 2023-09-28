@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
     teste = (contato *)malloc(sizeof(contato));
     if (teste == 0) { 
         printf("Erro ao alocar memória. O programa continuará, mas o uso da memória alocada pode causar falhas.\n");
-    } else {
+    } else { 
         printf("Digite seu nome: ");
         fgets(teste->nome, sizeof(teste->nome), stdin);
 

@@ -10,7 +10,7 @@ typedef struct{
 
 void leitura(contato *a){
 	printf("Digite o nome: ");	gets((*a).nome);
-	printf("Digite a data de nascimento: "); gets(a->aniversario)
+	printf("Digite a data de nascimento: "); gets(a->aniversario);
 	printf("Digite o Celular: ");gets(a->celular);
 	printf("Digite o fixo: ");gets(a->fixo);
 	printf("Digite o endereco: ");gets(a->endereco);
